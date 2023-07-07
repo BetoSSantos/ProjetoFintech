@@ -1,0 +1,67 @@
+
+
+
+h3{
+    font-size:35px;
+    color: black ; 
+    font-family: 'Poppins', 'Arial' , sans-serif ;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    line-height: 100px;
+}
+h4{
+    font-size:25px;
+    color: black ; 
+    font-family: 'Poppins', 'Arial' , sans-serif ;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    line-height: 60px;
+    background-color: #D9D9D9;
+    width: 100%;
+    border: 20px solid white;
+}   
+li:hover {
+    width: 300px;
+    height: 25px;
+    background-color: rgb(193, 193, 193);
+    color: white;
+
+}
+
+.header,.footer{
+    background-color: #FF0000;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    height: 60px;
+}
+
+.menu2{
+    width: 90px;
+    height: 35px;
+    position: absolute;
+    top: 2%; /* Posiciona a div a 50% do topo */
+    left: 1%; /* Posiciona a div a 50% da esquerda */
+}
+.main{
+    text-align: center;
+    
+}
+input{
+    width: 90%;
+    height: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.bntSalvar{
+    
+    position: absolute;
+    top: 100%; /* Posiciona a div a 50% do topo */
+    left: 43%; 
+}
+.Salvar{
+    
+    width: 180px;
+    height: 80px;
+}
